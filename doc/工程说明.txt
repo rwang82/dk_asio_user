@@ -1,0 +1,8 @@
+简介
+    本工程用Microsoft Visual Studio Ultimate 2013 Version 12.0.21005.1 REL 编译。
+    AS(Audio Source)音频播放源对应[dk_asio_user],我们获取的PCM数据最初就在个DLL中获取到, ASIO框架，是有1个DLL（COM）被应用程序载入，应用程序与ASIO直接交互的就是这个DLL。（对应dk_asio_user工程，它编译后是1个DLL，需要用regsvr32 注册这个COM组件）。如果你播放音乐的程序是32bit程序(不一定是32bit系统)，就编译32bit的dll. 如果播放音乐的程序是64bit程序就编译64bit的dll。
+
+    ACP(Audio Control Panel),由于需要指定一些音频参数和指定音频数据发往哪个IP地址等设置，我们需要这个模块，每个AS启动后都需要到ACP来注册(发送Socket命令),这个模块对应工程 [dk_acp].
+
+    PD(Play Device)接受PCM数据的设备，这也就是最终对应的板子。这里我写了 dk_pd_mock 来模拟PCM数据接收的设备。对应工程就是 [dk_pd_mock].最终我们把收到的PCM数据写到文件里面。
+

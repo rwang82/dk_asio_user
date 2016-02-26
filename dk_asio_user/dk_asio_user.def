@@ -1,0 +1,7 @@
+LIBRARY		DK_ASIO_USER
+HEAPSIZE		4096
+EXPORTS	
+				DllGetClassObject	PRIVATE
+				DllCanUnloadNow		PRIVATE
+				DllRegisterServer	PRIVATE
+				DllUnregisterServer	PRIVATE

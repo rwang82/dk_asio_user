@@ -1,0 +1,14 @@
+我的测试环境是Win8.1 64bit
+
+1. 编译工程最终得到 dk_acp.exe dk_asio_user.dll dk_pd_mock.exe
+2. 管理员权限运行 cmd 命令行。
+3. 在命令行终端进入 dk_asio_user.dll 所在目录。
+4. regsvr32 dk_asio_user.dll
+5. 如果注册成功会显示 DllRegisterServer 在dk_asio_user.dll 已成功。点击确定。
+6. 运行“百度音乐”应用程序，依次按下：右上交的齿轮->设置->音频输出-> ASIO:DK ASIO Driver -> 全部保存。 
+7. （不要关掉百度音乐）双击dk_acp.exe.
+8. 可以看到第二排出现1个GUID字符串。这个就是ASID，表明dk_asio_user.dll已经与dk_acp.exe已经联系上了。
+9. 双击运行 dk_pd_mock.exe.
+10. 回到 dk_acp.exe 的界面，在Play Device IP: 输入127.0.0.1,然后点击Connect这样。 dk_asio_user.dll 就按照通讯协议与 Play Device联系上了.
+11. 回到 “百度音乐” 播放一首歌曲。播放一段后，停止。
+12. 关闭 dk_pd_mock.exe，在它的同目录下可以看到channel_0.pcm channel_1.pcm. 这就是每个channel的PCM数据。PCM格式16bit / 44100 / 单声道

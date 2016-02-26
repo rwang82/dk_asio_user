@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{61fba5f1-0440-4dc4-a3c5-a120f52012bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dk_common">
+      <UniqueIdentifier>{452e0ebe-4d99-4efe-8382-1b2bffa00e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{bfe67f6e-e825-4cbb-ab42-20046c4754a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\asio">
+      <UniqueIdentifier>{7a1d4987-da7d-4651-a5d6-32e14959b154}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\dk_guid.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\dk_socket_server.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\FuncPack.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\hmcmn_event.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\LLXTSHelper.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\MemFuncPack.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protocol\laudio_pack_4_acp.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protocol\laudio_pack_4_asio.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protocol\laudio_pack_decoder.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protocol\laudio_pack_defs.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\dk_pd_root.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\dk_pd_envcfg.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\dk_block_cache.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\dk_ring_cache.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\asio\dk_pd_4_asio.h">
+      <Filter>framework\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\asio\dk_pd_channel_4_asio.h">
+      <Filter>framework\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protocol\laudio_port_defs.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\asio\dk_pd_4_render.h">
+      <Filter>framework\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\asio\dk_pd_4_capture.h">
+      <Filter>framework\asio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dk_pd_mock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dk_common\dk_guid.cpp">
+      <Filter>dk_common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dk_common\dk_socket_server.cpp">
+      <Filter>dk_common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dk_common\LLXTSHelper.cpp">
+      <Filter>dk_common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protocol\laudio_pack_decoder.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\dk_pd_root.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dk_common\dk_block_cache.cpp">
+      <Filter>dk_common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dk_common\dk_ring_cache.cpp">
+      <Filter>dk_common</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\asio\dk_pd_4_asio.cpp">
+      <Filter>framework\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\asio\dk_pd_channel_4_asio.cpp">
+      <Filter>framework\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\asio\dk_pd_4_render.cpp">
+      <Filter>framework\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\asio\dk_pd_4_capture.cpp">
+      <Filter>framework\asio</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

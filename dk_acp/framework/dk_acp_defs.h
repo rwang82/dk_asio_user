@@ -1,0 +1,21 @@
+#ifndef __DK_ACP_DEFS_H__
+#define __DK_ACP_DEFS_H__
+
+enum ENUMAS2PDSTATUS {
+	EAS2PD_STATUS_DISCONNECTED = 0,
+	EAS2PD_STATUS_CONNECTING = 1,
+	EAS2PD_STATUS_CONNECTED = 2,
+};
+
+
+
+
+
+
+
+
+
+
+
+
+#endif //__DK_ACP_DEFS_H__

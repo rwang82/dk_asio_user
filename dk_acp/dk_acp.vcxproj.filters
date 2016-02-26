@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{68daf6f8-a809-4152-b6b4-853ff5644617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dk_common">
+      <UniqueIdentifier>{a078a569-ddac-4731-a7d0-523d671dd261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{a53543df-5d5a-45ba-8b74-5d44bc6051aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dk_acp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protocol\laudio_pack_defs.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protocol\laudio_pack_4_acp.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\protocol\laudio_pack_decoder.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\dk_socket_server.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\hmcmn_event.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\LLXTSHelper.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\dk_acp_root.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\dk_acp_package_handler.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\dk_as_proxy.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\dk_as_module.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dk_common\dk_guid.h">
+      <Filter>dk_common</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\dk_acp_defs.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dk_acp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\protocol\laudio_pack_decoder.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dk_common\dk_socket_server.cpp">
+      <Filter>dk_common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dk_common\LLXTSHelper.cpp">
+      <Filter>dk_common</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\dk_acp_root.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\dk_acp_package_handler.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\dk_as_proxy.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\dk_as_module.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dk_common\dk_guid.cpp">
+      <Filter>dk_common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dk_acp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dk_acp.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
